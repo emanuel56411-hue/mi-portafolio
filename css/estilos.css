@@ -1,0 +1,60 @@
+
+/* Paleta de colores del portafolio */
+:root {
+    --primario: #0A2A66;
+    --secundario: #2456C7;
+    --acento: #A66B00;
+    --fondo: #F6F8FC;
+    --texto: #1E2433;
+}
+
+/* Estilos generales */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--texto);
+    background-color: var(--fondo);
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    color: var(--primario);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+/* Párrafos */
+p {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* Enlaces */
+a {
+    color: var(--secundario);
+    text-decoration: none;
+}
+
+/* Efecto al pasar el mouse */
+a:hover {
+    color: var(--acento);
+    text-decoration: underline;
+}
+
+/* Frase importante */
+.destacado {
+    color: var(--primario);
+    font-weight: 700;
+    background-color: #E7EEFF;
+}
