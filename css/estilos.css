@@ -1,3 +1,16 @@
+/* Reinicio básico del modelo de caja */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* Paleta de colores del portafolio */
 :root {
@@ -58,3 +71,49 @@ a:hover {
     font-weight: 700;
     background-color: #E7EEFF;
 }
+
+
+/* Contenedor centrado */
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Tarjetas */
+.tarjeta {
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    border: 2px solid #0A2A66;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+/* Botones */
+.boton {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--secundario);
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: var(--primario);
+    color: #FFFFFF;
+}
+
+/* Espaciado de títulos y párrafos */
+h1, h2, h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+}
+
